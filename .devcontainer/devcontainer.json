@@ -1,0 +1,10 @@
+{ 
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+		},
+		"ghcr.io/customink/codespaces-features/docker-log-level:1": {
+			"level": "info"
+		}
+	}
+}
